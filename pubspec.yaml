@@ -1,0 +1,56 @@
+name: stock_take_app
+description: Stock Take Mobile App , part of the logistix pro system
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.1 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  provider: any
+  http:
+  shared_preferences: any
+  font_awesome_flutter: any
+  connectivity: any
+  flutter_spinkit: any
+  fluttertoast: ^8.0.9
+  geolocator: ^8.0.0
+  time: ^2.0.0
+  intl: any
+  uuid: any
+  flutter_holo_date_picker: any
+  numeric_keyboard: any
+  flutter_barcode_scanner: ^2.0.0
+  #printing: any
+  pdf: ^3.7.3
+  cached_network_image: ^3.2.1
+  #image_picker: ^0.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+
+
